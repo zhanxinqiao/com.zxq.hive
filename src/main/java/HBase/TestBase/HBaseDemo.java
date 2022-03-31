@@ -27,7 +27,7 @@ public class HBaseDemo {
     Table table = null;
     //创建表的对象
     TableName tableName = TableName.valueOf("phone");
-
+  //
     @Before
     public void init() throws IOException {
         //创建配置文件对象
